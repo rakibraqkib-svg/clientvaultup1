@@ -1,0 +1,409 @@
+{
+  "users": [
+    {
+      "id": "user-demo-1",
+      "name": "RAKIB",
+      "email": "rakib@clientvault.studio",
+      "role": "Founder & Creative Lead",
+      "avatarInitials": "RK",
+      "isDemo": true,
+      "passwordHash": "c192a59fc1c68ef6fcd815aab97e20c573c04a725303231d75e50acfa969f3c2",
+      "settings": {
+        "workspaceName": "RAKIB's ClientVault",
+        "brandAccent": "cyan",
+        "defaultShareExpiry": "7d",
+        "requirePasswordByDefault": true,
+        "emailNotifications": true,
+        "twoFactorEnabled": true,
+        "storageQuotaBytes": 53687091200
+      }
+    },
+    {
+      "id": "user-dfdc9ffa-d",
+      "name": "MD Rakib Hossain",
+      "email": "raqkibrony@gmail.com",
+      "role": "Workspace Owner",
+      "avatarInitials": "MH",
+      "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "settings": {
+        "workspaceName": "rh",
+        "brandAccent": "cyan",
+        "defaultShareExpiry": "7d",
+        "requirePasswordByDefault": false,
+        "emailNotifications": true,
+        "twoFactorEnabled": false,
+        "storageQuotaBytes": 26843545600
+      }
+    }
+  ],
+  "sessions": {
+    "demo-session-token": "user-demo-1",
+    "633c9aa473afec0e2fc2933c02c97b1a7603446b2c3a46e4": "user-dfdc9ffa-d"
+  },
+  "projects": [
+    {
+      "id": "proj-aether",
+      "ownerId": "user-demo-1",
+      "name": "Aether Skincare Launch",
+      "clientName": "Aether Botanicals",
+      "clientEmail": "launch@aetherbotanicals.com",
+      "description": "Complete bottle packaging renders, brand guidelines PDF, and launch campaign assets.",
+      "status": "active",
+      "accentColor": "cyan",
+      "createdAt": "2026-11-09T07:36:30.771Z",
+      "updatedAt": "2026-11-14T05:36:30.771Z"
+    },
+    {
+      "id": "proj-pelagic",
+      "ownerId": "user-demo-1",
+      "name": "Pelagic Yachts Digital",
+      "clientName": "Pelagic Marine Group",
+      "clientEmail": "marketing@pelagicmarine.io",
+      "description": "Interactive 3D fleet showcase, UI component library, and technical brochures.",
+      "status": "review",
+      "accentColor": "turquoise",
+      "createdAt": "2026-11-04T07:36:30.771Z",
+      "updatedAt": "2026-11-13T17:36:30.771Z"
+    },
+    {
+      "id": "proj-lumina",
+      "ownerId": "user-demo-1",
+      "name": "Lumina Fintech Rebrand",
+      "clientName": "Lumina Capital",
+      "clientEmail": "design@luminacapital.co",
+      "description": "Executive deck templates, icon pack, and production motion bumpers.",
+      "status": "delivered",
+      "accentColor": "purple",
+      "createdAt": "2026-10-25T07:36:30.771Z",
+      "updatedAt": "2026-11-12T07:36:30.771Z"
+    },
+    {
+      "id": "proj-7cd71abb",
+      "ownerId": "user-dfdc9ffa-d",
+      "name": "Client Onboarding Kit",
+      "clientName": "First Client",
+      "clientEmail": "",
+      "description": "Your first secure client workspace. Upload files and generate a protected portal link.",
+      "status": "active",
+      "accentColor": "cyan",
+      "createdAt": "2026-11-14T07:47:31.747Z",
+      "updatedAt": "2026-11-14T07:47:31.747Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "file-bf24dcf3-0",
+      "ownerId": "user-demo-1",
+      "projectId": null,
+      "name": "5dd65d50e3305ca264d4bf92e7c491dd.jpg",
+      "mimeType": "image/jpeg",
+      "size": 181230,
+      "category": "image",
+      "isFavorite": false,
+      "isTrashed": false,
+      "trashedAt": null,
+      "description": "Uploaded via ClientVault Front Workspace",
+      "previewUrl": "/api/files/file-bf24dcf3-0/content",
+      "textPreview": null,
+      "storagePath": "/app/applet/.data/uploads/file-bf24dcf3-0-5dd65d50e3305ca264d4bf92e7c491dd.jpg",
+      "inlineAssetPath": null,
+      "createdAt": "2026-11-14T10:04:57.445Z",
+      "updatedAt": "2026-11-14T10:04:57.445Z"
+    },
+    {
+      "id": "file-bfb50eef-3",
+      "ownerId": "user-demo-1",
+      "projectId": null,
+      "name": "sample-ocean-brief.txt",
+      "mimeType": "text/plain",
+      "size": 128,
+      "category": "document",
+      "isFavorite": false,
+      "isTrashed": false,
+      "trashedAt": null,
+      "description": "Front-page instant upload test",
+      "previewUrl": "/api/files/file-bfb50eef-3/content",
+      "textPreview": "ClientVault Front-Page Ocean Upload Verification\nStatus: Ready for client review\n",
+      "storagePath": "/app/applet/.data/uploads/file-bfb50eef-3-sample-ocean-brief.txt",
+      "inlineAssetPath": null,
+      "createdAt": "2026-11-14T08:03:47.361Z",
+      "updatedAt": "2026-11-14T08:03:47.361Z"
+    },
+    {
+      "id": "file-8d29992b-9",
+      "ownerId": "user-demo-1",
+      "projectId": null,
+      "name": "5dd65d50e3305ca264d4bf92e7c491dd.jpg",
+      "mimeType": "image/jpeg",
+      "size": 181230,
+      "category": "image",
+      "isFavorite": false,
+      "isTrashed": false,
+      "trashedAt": null,
+      "description": "Uploaded client deliverable",
+      "previewUrl": "/api/files/file-8d29992b-9/content",
+      "textPreview": null,
+      "storagePath": "/app/applet/.data/uploads/file-8d29992b-9-5dd65d50e3305ca264d4bf92e7c491dd.jpg",
+      "inlineAssetPath": null,
+      "createdAt": "2026-11-14T07:39:13.764Z",
+      "updatedAt": "2026-11-14T07:39:13.764Z"
+    },
+    {
+      "id": "file-aether-mockup",
+      "ownerId": "user-demo-1",
+      "projectId": "proj-aether",
+      "name": "Aether-Packaging-Hero-4K.jpg",
+      "mimeType": "image/jpeg",
+      "size": 4820400,
+      "category": "image",
+      "isFavorite": true,
+      "isTrashed": false,
+      "trashedAt": null,
+      "description": "Studio hero photograph of frosted glass serum bottle and foil brand dossier.",
+      "previewUrl": "/src/assets/images/creative_deliverable_preview_1794641035657.jpg",
+      "inlineAssetPath": "/app/applet/src/assets/images/creative_deliverable_preview_1794641035657.jpg",
+      "storagePath": null,
+      "createdAt": "2026-11-13T13:36:30.771Z",
+      "updatedAt": "2026-11-14T05:36:30.771Z"
+    },
+    {
+      "id": "file-aether-spec",
+      "ownerId": "user-demo-1",
+      "projectId": "proj-aether",
+      "name": "Aether-Brand-Guidelines-v3.md",
+      "mimeType": "text/markdown",
+      "size": 24800,
+      "category": "document",
+      "isFavorite": true,
+      "isTrashed": false,
+      "trashedAt": null,
+      "description": "Typography scale, deep slate & cyan foil color tokens, and print tolerances.",
+      "previewUrl": null,
+      "textPreview": "# Aether Botanicals — Brand Identity Specification\n\n## Color System\n- Deep Slate: #111927\n- Frosted Aqua: #7FE7F2\n- Matte Charcoal Foil: #0B1220\n\n## Typography\n- Display: Plus Jakarta Sans Bold\n- Editorial Copy: Manrope Regular\n\n## Packaging Print Notes\n1. Use 350gsm uncoated cotton stock for primary folder.\n2. Cyan metallic foil stamp at 0.4pt minimum stroke weight.\n3. Deliver final print-ready PDF/X-4 plates by Friday.",
+      "inlineAssetPath": null,
+      "storagePath": null,
+      "createdAt": "2026-11-13T05:36:30.771Z",
+      "updatedAt": "2026-11-14T03:36:30.771Z"
+    },
+    {
+      "id": "file-pelagic-tokens",
+      "ownerId": "user-demo-1",
+      "projectId": "proj-pelagic",
+      "name": "Pelagic-Design-Tokens.json",
+      "mimeType": "application/json",
+      "size": 18420,
+      "category": "design",
+      "isFavorite": false,
+      "isTrashed": false,
+      "trashedAt": null,
+      "description": "Production Figma design tokens exported for web & mobile yacht configurator.",
+      "previewUrl": null,
+      "textPreview": "{\n  \"brand\": \"Pelagic Marine\",\n  \"surface\": {\n    \"deepOcean\": \"#03152F\",\n    \"glassPanel\": \"rgba(255,255,255,0.12)\"\n  },\n  \"accent\": {\n    \"cyan\": \"#00D9FF\",\n    \"turquoise\": \"#22E6D0\"\n  },\n  \"radii\": {\n    \"card\": \"24px\",\n    \"control\": \"12px\"\n  }\n}",
+      "inlineAssetPath": null,
+      "storagePath": null,
+      "createdAt": "2026-11-12T13:36:30.771Z",
+      "updatedAt": "2026-11-13T17:36:30.771Z"
+    },
+    {
+      "id": "file-pelagic-turtle",
+      "ownerId": "user-demo-1",
+      "projectId": "proj-pelagic",
+      "name": "Marine-Conservation-Campaign-Still.jpg",
+      "mimeType": "image/jpeg",
+      "size": 6150200,
+      "category": "image",
+      "isFavorite": true,
+      "isTrashed": false,
+      "trashedAt": null,
+      "description": "Key visual underwater artwork for Pelagic Reef Sanctuary partnership.",
+      "previewUrl": "/src/assets/images/hero_turtle_ocean_1794641035043.jpg",
+      "inlineAssetPath": "/app/applet/src/assets/images/hero_turtle_ocean_1794641035043.jpg",
+      "storagePath": null,
+      "createdAt": "2026-11-11T19:36:30.771Z",
+      "updatedAt": "2026-11-13T15:36:30.771Z"
+    },
+    {
+      "id": "file-lumina-archive",
+      "ownerId": "user-demo-1",
+      "projectId": "proj-lumina",
+      "name": "Lumina-Vector-Assets-Bundle.zip",
+      "mimeType": "application/zip",
+      "size": 42500000,
+      "category": "archive",
+      "isFavorite": false,
+      "isTrashed": false,
+      "trashedAt": null,
+      "description": "Final approved SVG logos, favicon suite, and social media banners.",
+      "previewUrl": null,
+      "textPreview": null,
+      "inlineAssetPath": null,
+      "storagePath": null,
+      "createdAt": "2026-11-10T07:36:30.771Z",
+      "updatedAt": "2026-11-12T07:36:30.771Z"
+    },
+    {
+      "id": "file-trashed-draft",
+      "ownerId": "user-demo-1",
+      "projectId": "proj-aether",
+      "name": "Aether-Packaging-Draft-v1.txt",
+      "mimeType": "text/plain",
+      "size": 4200,
+      "category": "document",
+      "isFavorite": false,
+      "isTrashed": true,
+      "trashedAt": "2026-11-13T21:36:30.771Z",
+      "description": "Superseded packaging copy notes from initial kickoff.",
+      "previewUrl": null,
+      "textPreview": "Initial exploratory notes replaced by v3 brand dossier.",
+      "inlineAssetPath": null,
+      "storagePath": null,
+      "createdAt": "2026-11-09T17:36:30.771Z",
+      "updatedAt": "2026-11-13T21:36:30.771Z"
+    }
+  ],
+  "shares": [
+    {
+      "id": "share-df0c3e06",
+      "token": "file-dcfc4df46d",
+      "ownerId": "user-demo-1",
+      "title": "5dd65d50e3305ca264d4bf92e7c491dd.jpg — Client Portal",
+      "targetType": "file",
+      "targetId": "file-8d29992b-9",
+      "clientEmail": "",
+      "hasPassword": false,
+      "passwordHash": null,
+      "expiresAt": "2026-11-21T07:39:31.515Z",
+      "allowDownload": true,
+      "isRevoked": false,
+      "viewsCount": 6,
+      "downloadsCount": 0,
+      "createdAt": "2026-11-14T07:39:43.034Z"
+    },
+    {
+      "id": "share-aether-live",
+      "token": "aether-launch-2026",
+      "ownerId": "user-demo-1",
+      "title": "Aether Skincare — Final Launch Deliverables",
+      "targetType": "project",
+      "targetId": "proj-aether",
+      "clientEmail": "launch@aetherbotanicals.com",
+      "hasPassword": false,
+      "passwordHash": null,
+      "expiresAt": "2026-11-28T07:36:30.771Z",
+      "allowDownload": true,
+      "isRevoked": false,
+      "viewsCount": 28,
+      "downloadsCount": 14,
+      "createdAt": "2026-11-13T15:36:30.771Z"
+    },
+    {
+      "id": "share-pelagic-locked",
+      "token": "pelagic-review-vault",
+      "ownerId": "user-demo-1",
+      "title": "Pelagic Marine — Confidential Review Pack",
+      "targetType": "project",
+      "targetId": "proj-pelagic",
+      "clientEmail": "marketing@pelagicmarine.io",
+      "hasPassword": true,
+      "passwordHash": "dd0d6c8c8e9e10856819a49a940a4ffcb2b0462e20834a9b6e0b16c8e8839a24",
+      "passwordHint": "Demo password: reef2026",
+      "expiresAt": "2026-11-21T07:36:30.771Z",
+      "allowDownload": true,
+      "isRevoked": false,
+      "viewsCount": 9,
+      "downloadsCount": 3,
+      "createdAt": "2026-11-13T23:36:30.771Z"
+    }
+  ],
+  "activity": {
+    "user-demo-1": [
+      {
+        "id": "act-fc8ad3f1",
+        "action": "Uploaded file",
+        "subject": "5dd65d50e3305ca264d4bf92e7c491dd.jpg",
+        "timestamp": "2026-11-14T10:04:57.445Z",
+        "tone": "turquoise"
+      },
+      {
+        "id": "act-736e85b7",
+        "action": "Permanently deleted",
+        "subject": "creative_deliverable_preview_1794641035657.jpg",
+        "timestamp": "2026-11-14T09:25:09.228Z",
+        "tone": "purple"
+      },
+      {
+        "id": "act-7b891866",
+        "action": "Uploaded file",
+        "subject": "creative_deliverable_preview_1794641035657.jpg",
+        "timestamp": "2026-11-14T09:23:53.562Z",
+        "tone": "turquoise"
+      },
+      {
+        "id": "act-4d8eae22",
+        "action": "Permanently deleted",
+        "subject": "test-cauliflower.png",
+        "timestamp": "2026-11-14T09:19:12.836Z",
+        "tone": "purple"
+      },
+      {
+        "id": "act-fb342469",
+        "action": "Uploaded file",
+        "subject": "test-cauliflower.png",
+        "timestamp": "2026-11-14T09:19:12.818Z",
+        "tone": "turquoise"
+      },
+      {
+        "id": "act-f55a9fa7",
+        "action": "Uploaded file",
+        "subject": "sample-ocean-brief.txt",
+        "timestamp": "2026-11-14T08:03:47.362Z",
+        "tone": "turquoise"
+      },
+      {
+        "id": "act-644425de",
+        "action": "Created secure share link",
+        "subject": "5dd65d50e3305ca264d4bf92e7c491dd.jpg — Client Portal",
+        "timestamp": "2026-11-14T07:39:43.034Z",
+        "tone": "cyan"
+      },
+      {
+        "id": "act-89ceef9b",
+        "action": "Uploaded file",
+        "subject": "5dd65d50e3305ca264d4bf92e7c491dd.jpg",
+        "timestamp": "2026-11-14T07:39:13.764Z",
+        "tone": "turquoise"
+      },
+      {
+        "id": "act-1",
+        "action": "Shared project portal",
+        "subject": "Aether Skincare — Final Launch Deliverables",
+        "timestamp": "2026-11-14T05:36:30.771Z",
+        "tone": "cyan"
+      },
+      {
+        "id": "act-2",
+        "action": "Uploaded 4K asset",
+        "subject": "Aether-Packaging-Hero-4K.jpg",
+        "timestamp": "2026-11-14T03:36:30.771Z",
+        "tone": "turquoise"
+      },
+      {
+        "id": "act-3",
+        "action": "Enabled password lock",
+        "subject": "Pelagic Marine — Confidential Review Pack",
+        "timestamp": "2026-11-13T23:36:30.771Z",
+        "tone": "purple"
+      }
+    ],
+    "user-dfdc9ffa-d": [
+      {
+        "id": "act-5b871e4e",
+        "action": "Created ClientVault workspace",
+        "subject": "rh",
+        "timestamp": "2026-11-14T07:47:31.747Z",
+        "tone": "cyan"
+      }
+    ]
+  },
+  "contacts": []
+}

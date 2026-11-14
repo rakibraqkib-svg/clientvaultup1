@@ -1,0 +1,6 @@
+{
+  "name": "ClientVault",
+  "description": "Your Files. Your Clients. One Secure Space. Premium ocean glassmorphism client file management and secure portal platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
